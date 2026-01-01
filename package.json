@@ -1,0 +1,31 @@
+{
+  "name": "sql-mongo-express-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaim-greenfeld/SQL-MONGO-EXPRESS-TEST.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/chaim-greenfeld/SQL-MONGO-EXPRESS-TEST/issues"
+  },
+  "homepage": "https://github.com/chaim-greenfeld/SQL-MONGO-EXPRESS-TEST#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongodb": "^7.0.0",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.16.0",
+    "nodemon": "^3.1.11"
+  }
+}
